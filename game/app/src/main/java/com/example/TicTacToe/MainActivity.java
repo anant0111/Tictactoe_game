@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-//     The cod efor the reset button is
+//     The cod for the reset button is
     public void reset(View view){
         GridLayout gridLayout = findViewById(R.id.gridLayout);
         int total_images = gridLayout.getChildCount();
@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+//     On create method
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
